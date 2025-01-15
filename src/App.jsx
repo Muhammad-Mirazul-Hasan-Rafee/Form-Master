@@ -1,5 +1,6 @@
 import './App.css'
-import StateFulForm from './Components/StateFulForm/StateFulForm'
+import RefForm from './Components/RefForm/RefForm'
+// import StateFulForm from './Components/StateFulForm/StateFulForm'
 // import SimpleForm from './SimpleForm/SimpleForm'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
   
       <h1>Simple Form</h1>
       {/* <SimpleForm></SimpleForm> */}
-      <StateFulForm></StateFulForm>
+      {/* <StateFulForm></StateFulForm> */}
+      <RefForm></RefForm>
     
      
     </>
