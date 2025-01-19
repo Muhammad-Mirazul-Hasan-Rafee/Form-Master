@@ -1,4 +1,5 @@
 import './App.css'
+import Grandpa from './Components/Grandpa/Grandpa'
 import ReusableForm from './Components/ReusableForm/ReusableForm'
 // import CustomHookForm from './Components/CustomHookForm/CustomHookForm'
 // import RefForm from './Components/RefForm/RefForm'
@@ -7,23 +8,24 @@ import ReusableForm from './Components/ReusableForm/ReusableForm'
 
 function App() {
 
-  const handleSignUpSubmit = (data) =>{
-    console.log('Sign Up Data' , data);
-  };
+  // const handleSignUpSubmit = (data) =>{
+  //   console.log('Sign Up Data' , data);
+  // };
   
-  const handleUpdateProfile = (data) =>{
-    console.log('Update Profile Data' , data);
-  };
+  // const handleUpdateProfile = (data) =>{
+  //   console.log('Update Profile Data' , data);
+  // };
 
   return (
     <>
   
-      <h1>Simple Form</h1>
+      <h1>Form Master</h1>
+      <Grandpa></Grandpa>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StateFulForm></StateFulForm> */}
       {/* <RefForm></RefForm> */}
       {/* <CustomHookForm></CustomHookForm> */}
-      <ReusableForm formTitle={'Sign Up'} handleSubmit={handleSignUpSubmit}>
+      {/* <ReusableForm formTitle={'Sign Up'} handleSubmit={handleSignUpSubmit}>
         <div>
           <h2>Sign Up</h2>
           <p>Please sign up right now</p>
@@ -35,7 +37,7 @@ function App() {
           <p>Always update your profile</p>
         </div>
       </ReusableForm>
-    
+     */}
      
     </>
   )

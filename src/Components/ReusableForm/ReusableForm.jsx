@@ -6,7 +6,7 @@ const ReusableForm = ({formTitle , handleSubmit , submitBtnText = 'Submit' , chi
         const data = {
             name: e.target.name.value,
             email: e.target.email.value,
-            password: e.target.password.value
+            password: e.target.password.value,
         };
         handleSubmit(data);
 
